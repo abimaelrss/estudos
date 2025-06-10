@@ -13,7 +13,7 @@ Os conteúdos estão organizados por temas, de forma progressiva:
 - 📄 comandos-basicos.md
 - 📄 fluxo-de-trabalho.md
 
-📁 html e css
+📁 html-css
 - 📄 html-css-basico.md
 - 📄 html-css-avancado.md
 
@@ -23,7 +23,7 @@ Os conteúdos estão organizados por temas, de forma progressiva:
 - 📄 javascript-avancado.md
 
 📁 typescript
-- 📄 typescript-basico.md
+- 📄 typescript.md
 
 📁 react
 - 📄 react-basico.md
