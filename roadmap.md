@@ -14,8 +14,8 @@ Este arquivo serve como um guia para acompanhar meu progresso nos estudos de des
 
 ## 🗂 Git e GitHub
 
-- [ ] Git: instalação e configuração
-- [ ] git init, add, commit, status, log
+- [x] Git: instalação e configuração (✅ concluído em 10/06/2025)
+- [x] Principais comandos básicos de Git (✅ concluído em 10/06/2025)
 - [ ] git diff, reset, rm, mv
 - [ ] git branch, checkout, merge
 - [ ] git stash, rebase (noções básicas)
