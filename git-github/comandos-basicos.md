@@ -4,8 +4,17 @@ Esse arquivo contém um resumo dos principais comandos básicos de Git.
 
 ---
 
-## Comandos repositório local
+## Comandos de configuração
 
+| Comando | Finalidade |
+| --- | --- |
+| `git config --global user.name "nome"` | Configura o nome de usuário |
+| `git config --global user.email "email@email.com"` | Configura o email de commit |
+| `git config --global init.defautBranch main` | Define a branch padrão como "main", ao invés de "master" |
+
+---
+
+## Comandos de repositório local
 | Comando | Finalidade |
 | --- | --- |
 | `git init` | Inicia um repositório Git |
