@@ -21,7 +21,7 @@ Este arquivo serve como um guia para acompanhar meu progresso nos estudos de des
 - [ ] git stash, rebase (noções básicas)
 - [ ] GitHub: criar e clonar repositório
 - [ ] Fluxo completo (branch, pull request, merge)
-- [ ] Boas práticas de commits
+- [x] Boas práticas de commits
 
 ---
 
