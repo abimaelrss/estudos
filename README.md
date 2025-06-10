@@ -41,19 +41,31 @@ Consolidar o aprendizado dos principais conceitos e tecnologias utilizados no de
 
 ## 🛠️ Tecnologias Estudadas
 
-- HTML5 & CSS3 (Flexbox, Grid)
-- JavaScript (ES6+)
-- Git & GitHub
-- React (em progresso)
-- Boas práticas de versionamento e organização de código
+- 🔤 HTML, CSS e JavaScript
+- 📦 Git e GitHub
+- 🧠 Boas práticas de versionamento e organização de código
+- ⚛️ React.js
+
+## 🗺️ Roadmap
+
+Veja meu progresso no arquivo [`roadmap.md`](./roadmap.md) 📌  
+Ali mantenho minhas metas, conteúdos concluídos e próximos passos.
 
 ## 📌 Status do Repositório
 
-🟢 Em constante atualização.  
-Atualizações semanais conforme avanço no plano de estudos.
+🟡 Em constante evolução!  
+Novos conteúdos, melhorias e ajustes serão adicionados com frequência.
 
 ## 🤝 Contribuições
 
 Este repositório é pessoal e voltado para meu desenvolvimento como dev. Mas se quiser trocar ideias, fazer sugestões ou compartilhar dicas, fique à vontade para abrir uma issue ou me chamar no [LinkedIn](https://www.linkedin.com/in/abimaelrss).
 
----
+## 🧑‍💻 Autor
+
+Desenvolvido com 💙 por [Abimael Rodrigues Sousa Silva](https://github.com/abimaelrss)  
+📫 abimaelrss@gmail.com • 📍 Palestina de Goiás
+
+## 📃 Licença
+
+Este projeto está sob a licença MIT.  
+Veja mais em [`LICENSE`](./LICENSE)
