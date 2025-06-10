@@ -17,6 +17,8 @@ Esse arquivo contém um resumo dos principais comandos básicos de Git.
 | `git commit -m "mensagem"` | Registra alterações no repositório com uma mensagem descrevendo o que foi modificado |
 | `git log` | Exibe histórico de commits |
 | `git checkout <id-do-commit>` | Volta a versões anteriores de commits - Cria/Troca de branch |
+| `git commit --amend -m "mensagem renomeada"` | Altera mensagem do último commit no repositório local |
+| `git commit push origin main --force` | Força o push para alteração da mensagem do último commit no repositório remoto |
 
 ---
 
