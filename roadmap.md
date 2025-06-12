@@ -4,24 +4,27 @@ Este arquivo serve como um guia para acompanhar meu progresso nos estudos de des
 
 ---
 
-## ✅ Fundamentos da Web
+## ✅ Fundamentos da programação Web
 
-- [ ] Como funciona a web (clientes, servidores, DNS, requisições)
-- [ ] HTTP e HTTPS
-- [ ] Navegadores e DevTools
+- [x] Como funciona a web (clientes, servidores, DNS, requisições). (✅ concluído em 11/06/2025)
+- [x] Sobre o mercado de TI (Habilidades, Áreas de atuação, O que é ser um Desenvolvedor). (✅ concluído em 11/06/2025)
+- [x] Hardware e Software, Sistemas Operacionais (SO), Arquivos. (✅ concluído em 11/06/2025)
+- [x] Tecnologias da Web (Básicas), Front-end vs Back-end, Webpage vs Website, Site estático vs Site dinâmico. (✅ concluído em 11/06/2025)
+- [x] Aplicativos Web (Web Applications), MPA (Multi-Page Application) vs SPA (Single Page Application), Linguagem de Programação. (✅ concluído em 11/06/2025)
+- [x] Ferramentas de Desenvolvedor (Navegadores, Editores de Código, Ferramentas de Design, Anotações, Linha de comando, DevTools, Documentação e Estudo). (✅ concluído em 11/06/2025)
 
 ---
 
 ## 🗂 Git e GitHub
 
-- [x] Git: instalação e configuração (✅ concluído em 10/06/2025)
-- [x] Principais comandos básicos de Git (✅ concluído em 10/06/2025)
+- [x] Git: instalação e configuração. (✅ concluído em 10/06/2025)
+- [x] Principais comandos básicos de Git. (✅ concluído em 10/06/2025)
 - [ ] git diff, reset, rm, mv
 - [ ] git branch, checkout, merge
 - [ ] git stash, rebase (noções básicas)
 - [ ] GitHub: criar e clonar repositório
 - [ ] Fluxo completo (branch, pull request, merge)
-- [x] Boas práticas de commits
+- [x] Boas práticas de commits. (✅ concluído em 10/06/2025)
 
 ---
 
