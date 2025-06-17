@@ -171,6 +171,7 @@ CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos escri
   Feitos assim: `/* comentário */`
 
 - **Anatomia de uma regra CSS**
+
   ```css
   seletor {
     propriedade: valor;
@@ -230,7 +231,7 @@ Todo elemento HTML é uma caixa (box):
 - `font-size`
 - `font-style`, `font-weight`
 - `color`, `text-align`, `line-height`, `text-transform`, `text-decoration`
-- `letter-spacing`, `word-spacing`, 
+- `letter-spacing`, `word-spacing`,
 - `font` (shorthand)
 - Uso de Web Fonts (ex: Google Fonts)
 
