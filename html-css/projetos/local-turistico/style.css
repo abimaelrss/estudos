@@ -6,4 +6,112 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+h1, h2, h3, .headline {
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 8px 0 40px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 2px 0 8px;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 20px 0 4px 10px;
+}
+
+#container {
+  width: 1120px;
+  margin: 88px auto 65px;
+}
+
+.headline {
+  color: #E1624F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img {
+  width: 1120px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+#description > p {
+  text-align: center;
+  font-style: italic;
+}
+
+#subtitle {
+  margin: 24px 0 44px;
+}
+
+#content-list {
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 64px 0 40px;
+  margin-bottom: 40px;
+}
+
+#content-list + p {
+  text-align: center;
+}
+
+#list {
+  padding-top: 14px;
+}
+
+.card-travel {
+  margin-top: 48px;
+}
+
+.content-card > p {
+  margin-bottom: 20px;
+}
+
+.content-card > span {
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+ul :nth-child(1) {
+  color: #591B98;
+}
+
+ul :nth-child(2) {
+  color: #E5245E;
+}
+
+ul :nth-child(3) {
+  color: #E95E10;
+}
+
+ul .color-blue {
+  color: #0C51A7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+footer img {
+  width: 15px;
+  /* height: 15px; */
+  margin: 0 3px;
 }
