@@ -77,7 +77,7 @@ Sistema de layout unidimensional para alinhar e distribuir elementos em containe
 
 ---
 
-## Position
+### Position
 
 Controla o posicionamento dos elementos na página.
 
@@ -90,7 +90,7 @@ Controla o posicionamento dos elementos na página.
 
 ---
 
-## Variáveis no CSS
+### Variáveis no CSS
 
 Permitem reutilização de valores.
 
@@ -100,7 +100,7 @@ Permitem reutilização de valores.
 
 ---
 
-## Pseudo-classes
+### Pseudo-classes
 
 - Interações e estados dos elementos
 - Exemplos:
@@ -110,7 +110,7 @@ Permitem reutilização de valores.
 
 ---
 
-## Pseudo-elements
+### Pseudo-elements
 
 - Criam partes fictícias do elemento
 - Exemplos:
@@ -121,4 +121,104 @@ Permitem reutilização de valores.
 
 ## CSS Grid
 
-> Próximo conteúdo a ser revisado.
+**CSS Grid** é um sistema de layout bidimensional poderoso para organizar elementos na tela.
+
+### Estrutura básica
+
+Todo Grid é composto por dois principais elementos:
+
+- `Container` (elemento pai)
+- `Itens` (elementos filhos)
+
+---
+
+#### Propriedades do Container (pai)
+
+- `display: grid`  
+  Ativa o comportamento de grid no elemento pai.
+
+- `grid-template` (shorthand)
+
+  - `grid-template-columns`  
+    Define as colunas do grid  
+    Ex: `1fr 1fr 1fr` ou `repeat(3, 1fr)`
+  - `grid-template-rows`  
+    Define as linhas do grid  
+    Ex: `200px 1fr 2fr`
+  - `grid-template-areas`  
+    Permite nomear áreas para facilitar o posicionamento
+
+- `gap`  
+  Espaçamento entre linhas e colunas
+  - `row-gap`
+  - `column-gap`
+
+---
+
+#### Propriedades dos Itens (filhos)
+
+- `grid-column` (shorthand)
+
+  - `grid-column-start`
+  - `grid-column-end`
+
+- `grid-row` (shorthand)
+
+  - `grid-row-start`
+  - `grid-row-end`
+
+- `grid-area`  
+  Usada para nomear ou posicionar o item dentro de uma área nomeada.
+
+---
+
+### Alinhamento
+
+Existem 9 propriedades importantes para alinhamento. Elas se dividem em 3 grupos e podem ser aplicadas no container ou nos itens:
+
+#### No Container (pai)
+
+- `align-content` – alinha o **conteúdo** no eixo vertical
+- `justify-content` – alinha o **conteúdo** no eixo horizontal
+- `place-content` – shorthand: `align-content + justify-content`
+
+- `align-items` – alinha os **itens** no eixo vertical
+- `justify-items` – alinha os **itens** no eixo horizontal
+- `place-items` – shorthand: `align-items + justify-items`
+
+#### Nos Itens (filhos)
+
+- `align-self` – alinha o **próprio item** verticalmente
+- `justify-self` – alinha o **próprio item** horizontalmente
+- `place-self` – shorthand: `align-self + justify-self`
+
+---
+
+### Propriedades automáticas
+
+Essas propriedades são usadas para gerar linhas/colunas automaticamente com base no conteúdo:
+
+- `grid-auto-flow`
+  - Define a direção automática de preenchimento (`row`, `column`)
+- `grid-auto-rows`
+  - Altura padrão de linhas criadas automaticamente
+- `grid-auto-columns`
+  - Largura padrão de colunas criadas automaticamente
+
+---
+
+## Grid ou Flex
+
+| Critério        | Flexbox                              | Grid                               |
+| --------------- | ------------------------------------ | ---------------------------------- |
+| Direção         | Unidimensional (linha **ou** coluna) | Bidimensional (linha **e** coluna) |
+| Layout complexo | Difícil de manter                    | Mais organizado                    |
+| Controle visual | Menor                                | Maior                              |
+| Alinhamento     | Ótimo em uma direção                 | Ótimo em ambas as direções         |
+
+**Regra geral**:
+
+- Use **Flexbox** para layouts lineares simples (menus, cards, botões).
+- Use **Grid** para **disposição mais complexa** de elementos em colunas e linhas.
+
+---
