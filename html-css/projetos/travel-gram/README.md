@@ -7,12 +7,12 @@ Projeto prático para revisão de layout com **Flexbox**, uso de **variáveis CS
 Durante o desenvolvimento deste projeto, foram revisados e aplicados os seguintes conceitos:
 
 - Estrutura básica de um projeto HTML e CSS
-- Separação de arquivos (`index.html`, `style/global.css`, `style/home.css`, etc.)
+- Separação de arquivos (`index.html`, `style/global.css`, `style/index.css`, etc.)
 - Uso de **variáveis CSS** para cores e tipografia
 - Importação de fontes do Google Fonts (`Poppins`)
 - Organização de imagens e assets
 - Criação de menu de navegação com ícones
-- Criação de uma **galeria de imagens responsiva** com `display: flex`
+- Criação de uma **galeria de imagens** com `display: flex`
 - Utilização de uma classe `.container` global para aplicar paddings e max-width
 - Prática de commits iniciais e versionamento com Git
 - Organização de estilos com base em um **Style Guide do Figma**
@@ -30,10 +30,10 @@ Durante o desenvolvimento deste projeto, foram revisados e aplicados os seguinte
 - Layout organizado com Flexbox, respeitando espaçamentos definidos no Figma
 - Uso de variáveis globais no `:root` para manter consistência
 - Tipografia e paleta de cores baseada no style guide
-- Galeria flexível e adaptável a diferentes tamanhos de tela
 
 ## 📁 Estrutura de pastas
 
+```
 travel-gram/
 ├── assets/
 │ └── icons/
@@ -47,6 +47,7 @@ travel-gram/
 ├── .gitignore
 ├── index.html
 └── README.md
+```
 
 
 ## 📝 Licença
