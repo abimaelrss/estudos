@@ -6,3 +6,5 @@ Divisão dos arquivos CSS para separar responsabilidades.
 
 Foi explorado o Style Guide do projeto, exportando assets e a definindo variáveis de cor no CSS. Foi Utilizado a tag root para aplicar estilos globais e estratégias de variáveis para facilitar a manutenção do código. Também foi aplicado a técnica de transparência em cores e testar as variáveis no projeto.
 
+Foi definida a fonte do projeto, a tipografia Poppins. Foi adicionado a fonte no projeto, utilizando o navegador fonts.google.com e inserindo o código no index.html. No arquivo global.css, foram definidas variáveis para as fontes, como font-family, tamanhos e pesos. Importância de observar detalhes do projeto e copiar o CSS corretamente. Foram feitos ajustes nas fontes para garantir a consistência no projeto.
+
